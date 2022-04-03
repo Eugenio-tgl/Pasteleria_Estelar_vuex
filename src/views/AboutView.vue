@@ -1,11 +1,12 @@
 <template>
-  <div class="about">
-    <h1>This is an about page</h1>
-  </div>
+  <Pedidos/>
 </template>
 
 <script setup> 
-    
+
+import Pedidos from '@/components/Pedidos.vue'
+
+
 </script>
 
 <style scoped>

@@ -17,5 +17,14 @@
 </script>
 
 <style scoped>
+.Contacto{
+    padding: 30px 0 30px 0;
+}
+h1{
+    font-size: 30px;
+}
 
+h2{
+    font-size: 20px;
+}
 </style>

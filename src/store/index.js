@@ -3,10 +3,10 @@ import { createStore } from 'vuex'
 export default createStore({
   state: {
     pedidosActivos:[
-      {id: 1, cliente:'cliente', telefono:'telefono', email:'email', pedido:'pedido', isTitle: true},
-      {id: 2, cliente:'cliente', telefono:'telefono', email:'email', pedido:'pedido', isTitle: true}
+      {id: 0, cliente:'cliente', telefono:'telefono', email:'email', pedido:'pedido', isTitle: true},
       ],
     numOrdenes: 0,
+
     ingredientesDis:[
       {id: 1, sencillo: 23, leches: 2, devil: 2, envuelto: 4, selvaNegra: 4, milHojas: 1}
       ],
@@ -20,6 +20,11 @@ export default createStore({
   getters: {
   },
   mutations: {
+    agregarPedido(nuevoPedido){
+      this.pedidosActivos.push({'id': numOrdenes, 'cliente': nuevoPedido.cliente,
+      'telefono': nuevoPedido.telefono, 'email': nuevoPedido.email, 
+      'pedido': nuevoPedido.pedido, 'isTitle': false })
+    }
   },
   actions: {
   },

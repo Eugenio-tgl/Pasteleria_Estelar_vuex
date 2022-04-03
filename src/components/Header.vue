@@ -4,12 +4,12 @@
         <div class="titulo">
             <h1>Pastelería Estelar</h1>
         </div>
-        <div class="options">
+        <!-- <div class="options">
             <button>Menu</button>
             <button>Sobre Nosotros</button>
             <button>Cart</button>
             <button>Admin</button>
-        </div>
+        </div> -->
 
     </div>
 </template>
@@ -42,13 +42,4 @@ h1{
     font-size: 64px;
 }
 
-button{
-    width: 250px;
-    height: 36px;
-
-    font-family: 'Odor Mean Chey';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 22px;
-}
 </style>

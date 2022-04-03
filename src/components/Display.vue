@@ -25,6 +25,10 @@
     
 }
 
+.display{
+    padding: 30px 0 50px 0;
+}
+
 h1{
     left: 50px;
 

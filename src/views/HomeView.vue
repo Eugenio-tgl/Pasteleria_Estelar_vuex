@@ -2,7 +2,6 @@
   <Display/>
   <Orden/>
   <Contacto/>
-  <Pedidos/>
 </template>
 
 <script>
